@@ -27,7 +27,7 @@ class CashRegister
   end
 
   def items
-    binding.pry 
+    binding.pry
     @item << add_item(title, price)
   end
 
