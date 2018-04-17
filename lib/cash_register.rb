@@ -11,13 +11,13 @@ class CashRegister
     @array << @total
   end
 
+  def total 
+    array << @total.count
+  end 
+  
+
   def add_item(title, price, cost = 1)
    title = cost * price
   end
-
-
-
-
-
 
 end
