@@ -27,7 +27,7 @@ class CashRegister
   end
 
   def items
-    @item.all 
+    @item.each {|x| x.all?} 
   end
 
 end
