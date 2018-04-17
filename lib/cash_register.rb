@@ -27,8 +27,10 @@ class CashRegister
   end
 
   def items
-    binding.pry 
-    @item.c {|x| x.all?}
+    add_item(title, price, quantity = 1)
+    @item 
+    #binding.pry
+    
 
   end
 
