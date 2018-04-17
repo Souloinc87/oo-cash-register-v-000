@@ -12,7 +12,7 @@ class CashRegister
   end
 
   def add_item(title, price, cost = 1)
-   cost * price
+   title = cost * price
   end
 
 
