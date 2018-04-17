@@ -11,6 +11,7 @@ class CashRegister
 
   def add_item(title, price, increase = 1)
    title = increase + price
+   binding.pry 
   end
 
 end
