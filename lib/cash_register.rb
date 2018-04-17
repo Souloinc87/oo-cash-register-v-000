@@ -27,8 +27,9 @@ class CashRegister
   end
 
   def items
-    @item.each {|x| x.all?}
-    x
+    binding.pry 
+    @item.c {|x| x.all?}
+
   end
 
 end
