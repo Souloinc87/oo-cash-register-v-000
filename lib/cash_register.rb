@@ -1,7 +1,7 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :total, :discount, :title, :price
+  attr_accessor :total, :discount, :title, :price, :cost
 
   def initialize(discount = 0)
     @array = []
