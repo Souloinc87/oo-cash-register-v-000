@@ -26,8 +26,7 @@ class CashRegister
   end
 
   def items
-    new_item = self.new
-    @item  << new_item
+    @item
     #binding.pry
   end
 
