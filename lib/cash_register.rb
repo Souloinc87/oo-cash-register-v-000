@@ -10,8 +10,8 @@ class CashRegister
   end
 
   def add_item(title, price, increase = 1)
-   @total = increase + price
-   #binding.pry 
+   @total =  price
+   #binding.pry
   end
 
 end
